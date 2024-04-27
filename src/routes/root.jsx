@@ -11,6 +11,9 @@ export default function Root() {
             <li key={1}>
               <Link to={`pagination`}>Pagination</Link>
             </li>
+            <li key={1}>
+              <Link to={`tictactoe`}>Tic Tac Toe</Link>
+            </li>
           </ul>
         </nav>
       </div>

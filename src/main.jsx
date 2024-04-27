@@ -7,6 +7,7 @@ import Pagination from './routes/pagination';
 import ErrorPage from './error-page';
 
 import './index.css';
+import Tictactoe from './routes/tictactoe';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: '/pagination',
         element: <Pagination />,
+      },
+      {
+        path: '/tictactoe',
+        element: <Tictactoe />,
       },
     ],
   },
